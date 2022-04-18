@@ -1,0 +1,15 @@
+attention_mask作用：https://zhuanlan.zhihu.com/p/414511434  感觉就是用来多序列处理的时候把padding补0对照的消掉
+Transformer官方论文：https://arxiv.org/abs/1706.03762
+Bert官方文章：https://arxiv.org/pdf/1810.04805.pdf
+Transformer理解博客：https://xieyangyi.blog.csdn.net/article/details/105980363
+Bert理解博客：https://xieyangyi.blog.csdn.net/article/details/106908787
+bert-base-uncased(预处理模型)：https://huggingface.co/bert-base-uncased
+Fine Tune(微调)：https://zhuanlan.zhihu.com/p/35890660    这个其实就是与训练了之后只需要少量的调整就好了的意思
+Bert的理解（英文博客）：https://www.analyticsvidhya.com/blog/2021/05/all-you-need-to-know-about-bert/#:~:text=The%20BERT%20Base%20model%20uses%2012%20layers%20of,as%2016%20and%20has%20around%20340M%20trainable%20parameters.
+用Bert情感分类：https://skimai.com/fine-tuning-bert-for-sentiment-analysis/#3.1.-Create-BertClassifier
+Pytorch GPU加速Dataloder：https://blog.csdn.net/qq_32146369/article/details/107357422?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522163607541516780269815160%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=163607541516780269815160&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_v2~rank_v29-4-107357422.pc_v2_rank_blog_default&utm_term=RandomSampler%28%29&spm=1018.2226.3001.4450
+影评数据集：https://github.com/SophonPlus/ChineseNlpCorpus/blob/master/datasets/dmsc_v2/intro.ipynb
+防止pandas索引链接相邻的warning: https://blog.csdn.net/weixin_42575020/article/details/98846427
+
+方法参数等官方文档注释：
+input_ids: Indices of input sequence tokens in the vocabulary.  就是词汇表的索引
